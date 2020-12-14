@@ -37,4 +37,4 @@ function clickHandler() {
         })
 };
 
-buttonListner.addEventListener("click", clickHandler);
+buttonListner.addEventListener("click", clickHandler)

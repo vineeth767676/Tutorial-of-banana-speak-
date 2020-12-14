@@ -34,7 +34,8 @@ function clickHandler() {
             var translatedText = json.contents.translated;
             outputText.innerText = translatedText; //output
 
-        })
+         })
+        .catch(errorHandler)    
 };
 
 buttonListner.addEventListener("click", clickHandler)

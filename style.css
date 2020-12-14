@@ -1,0 +1,59 @@
+:root {
+    --primary: #FCD34D;
+    --black: #241c1c;
+}
+
+body {
+    margin: 0;
+    font-family: 'Kalam', cursive;
+    color: var(--black);
+}
+
+.navigation {
+    background-color: var(--primary);
+    padding: 1rem;
+    text-align: center;
+    margin: 0;
+}
+
+textarea {
+    box-sizing: border-box;
+    display: block;
+    min-height: 20vh;
+    margin-top: 1.5rem;
+    margin-left: auto;
+    margin-right: auto;
+    width: 90%;
+    font-size: x-large;
+
+}
+
+button {
+    margin-top: .5rem;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    font-family: 'Kalam', cursive;
+    font-size: large;
+}
+
+#outputBox {
+    box-sizing: border-box;
+    display: block;
+    border: 1px solid var(--black);
+    min-height: 20vh;
+    margin-top: .5rem;
+    margin-left: auto;
+    margin-right: auto;
+    width: 90%;
+}
+
+footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: var(--primary);
+    padding: 1rem;
+    text-align: center;
+}

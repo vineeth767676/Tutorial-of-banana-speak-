@@ -7,6 +7,7 @@ body {
     margin: 0;
     font-family: 'Kalam', cursive;
     color: var(--black);
+    background-color: #FEF3C7;
 }
 
 .navigation {
@@ -35,17 +36,21 @@ button {
     margin-right: auto;
     font-family: 'Kalam', cursive;
     font-size: large;
+    background-color: var(--primary);
 }
+
+
 
 #outputBox {
     box-sizing: border-box;
     display: block;
     border: 1px solid var(--black);
     min-height: 20vh;
-    margin-top: .5rem;
+    margin-top: 0.5rem;
     margin-left: auto;
     margin-right: auto;
     width: 90%;
+    background-color: white;
 }
 
 footer {
@@ -54,6 +59,6 @@ footer {
     bottom: 0;
     width: 100%;
     background-color: var(--primary);
-    padding: 1rem;
+    padding: 0.5rem;
     text-align: center;
 }

@@ -1,8 +1,8 @@
 // Declaring the variables of input & processing & output
 
-var inputText = document.querySelector("inputBox");
-var buttonListner = document.querySelector("translateButton");
-var outputText = document.querySelector("outputBox")
+var inputText = document.querySelector("#inputBox");
+var buttonListner = document.querySelector("#translateButton");
+var outputText = document.querySelector("#outputBox")
 
 // Translator URL link
 
